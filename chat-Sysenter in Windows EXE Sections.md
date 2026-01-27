@@ -89,14 +89,11 @@ Tu EXE (tu código)
 - **Optimización**: `sysenter`/`syscall` son más rápidos que las antiguas interrupciones (`int 0x2E`), lo que mejora el rendimiento.  
 - **Abstracción**: Windows oculta los detalles técnicos para que los programadores no tengan que escribir código de bajo nivel.
 
----
+*************************************************************************************************************************
+*************************************************************************************************************************
+************************************************************************************************************************
 
-### ¿Tienes más dudas?
-- ¿Quieres ver un ejemplo práctico con un depurador? (ej: WinDbg para ver `sysenter` en `ntdll.dll`).  
-- ¿Quieres entender la diferencia entre `sysenter` (x86) y `syscall` (x64)?  
-- ¿O cómo funcionan las llamadas al sistema en otros sistemas operativos (como Linux)?  
 
-¡Dímelo y profundizamos! 😊
 
 ¡Excelente pregunta! Vamos a aclarar este punto con precisión, porque es un error común de interpretación. La respuesta es **"no del todo"**, y aquí está la explicación detallada:
 
@@ -196,5 +193,3 @@ Tu programa (ej: MyApp.exe)
   > *"Si una DLL necesita acceder a recursos del sistema operativo (hardware, archivos, red, ventanas, etc.), llamará a `ntdll.dll`. Si solo trabaja en memoria o con datos (sin tocar el kernel), no llamará a `ntdll.dll`."*
 
 ---
-
-¿Quieres ver un ejemplo práctico con un depurador (como WinDbg) para confirmarlo? ¡Dímelo y te guío paso a paso! 😊
