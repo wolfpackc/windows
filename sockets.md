@@ -1,3 +1,10 @@
+Entender la idea de que existe un estandar C, y luego funciones de C que solo entienden ciertas APIs de X sistemas operativos.
+
+Por ejemplo, con sockets, en C estandar no existe nada para crear sockets y que luego la libc sea capaz de traducirlo a la API correspondiente. 
+Por lo tanto solo nos quedaria crear sockets mediante las funciones que ofrece cada API. La putada aqui viene con que no es multicompatible dado que se utilizan diferentes funciones según el sistema operativo.
+
+No es el caso de printf donde es una funcion que si está en todas las libc por lo tanto , el compilador o linker (npi) es capaz de traducirlo a la funcion correspondiente de la API O S.O.
+
 
 ---
 
