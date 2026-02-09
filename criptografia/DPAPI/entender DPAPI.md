@@ -5,6 +5,8 @@ el dato pero cifrado
 y la idea es que todas las entradas de esa base de datos , su contenido es cifrado mediante la misma clave , que se llama Master Key.
 Esa MK es simplemente una clave que sirve para cifrar simetricamente cada entrada de la base de datos de DPAPI, pero una cosita es que esa MK  esta cifrada tambien mientras que no se haya iniciado sesión.
 
+
+
 ---
 
 ## 🗃️ DPAPI Vault: Secretos Cifrados con Master Key
