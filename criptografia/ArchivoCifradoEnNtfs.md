@@ -1,4 +1,4 @@
-## 🔒 EFS Deep Dive: Cómo Windows Cifra Tus Archivos (Sin Que Te Des Cuenta)
+## 🔒 EFS Deep Dive: Cómo Windows Cifra Tus Archivos
 
 > 💡 *"La magia está en la combinación de cifrado simétrico + asimétrico + DPAPI. ¡Vamos a destriparlo!"*
 
