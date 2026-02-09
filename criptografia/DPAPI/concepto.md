@@ -2,3 +2,4 @@ Es un servicio que sirve para encriptar dator a nivel pequeño, es decir, encrip
 
 ademas esta asociada de alguna forma a la contraseña de windows de inicio sesion
 
+
