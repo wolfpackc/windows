@@ -23,7 +23,7 @@
 
 ---
 
-### 🔐 2. La FEK se "envuelve" con claves públicas (¡Elegante y seguro!)
+### 🔐 2. La FEK se "envuelve" con claves públicas 
 
 ```text
 🎲 FEK ───[cifra con]───→ 🔒 FEK⊗(pub_Alice)
