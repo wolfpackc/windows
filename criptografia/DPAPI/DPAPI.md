@@ -8,8 +8,6 @@
 
 ## 🩸 1. Diagrama de Ataque: Robo de Machine Keys desde Disco Frío
 
-> ⚠️ **Advertencia:** Esto es para *defensa*, no para atacar sistemas ajenos. Conocer el ataque es la única forma de defenderse.
-
 ---
 
 ### 🧠 ¿Por qué las Machine Keys son el Santo Grial del atacante?
