@@ -2,9 +2,6 @@
 ---
 
 # 🔐 Trilogy of Trust: DPAPI, EFS & BitLocker  
-*De ataques reales a defensas prácticas — todo en un solo lugar*
-
----
 
 ## 🩸 1. Diagrama de Ataque: Robo de Machine Keys desde Disco Frío
 
