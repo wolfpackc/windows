@@ -11,6 +11,7 @@ script en lote es una **estrategia** para ejecutar codigo sin que las politicas 
 ---
 
 Como se ha hablando en otros temas, las diferencias entre .lnk y .bat son grandes
+# .lnk <----> .bat
 
 | tipo | benficios | cosas negativas |
 |--------|----------|-------|
