@@ -3,7 +3,6 @@
 
 ---
 
-
 ¿Qué hace AMSI?
 
 Permite a aplicaciones que ejecutan contenido dinámico (scripts) —como PowerShell, JavaScript, VBScript, macros de Office, etc.— enviar ese contenido a un escáner antimalware para revisión antes de ejecutarlo.
@@ -19,7 +18,7 @@ AMSI no es un filtro universal que intercepte cada ejecutable (EXE, DLL, PDF, et
 
 Solo interviene cuando una aplicación integrada decide usar AMSI para escanear algo —usualmente cuando ejecuta código o contenido dinámico (como scripts o macros).
 
-Por ejemplo:
+## Por ejemplo:
 
 PowerShell manda scripts a AMSI antes de ejecutarlos.
 
@@ -34,13 +33,3 @@ Aplicaciones diseñadas para integrar AMSI pueden hacerlo explícitamente.
 AMSI no escanea directamente archivos PDF por sí mismo.
 
 Sin embargo, si el lector de PDF —como Adobe Reader— ejecuta scripts o hace algo que se considera “contenido que puede ser peligroso”, esa parte podría integrarse con AMSI para escanearlo.
-
-En la práctica, la mayoría de los análisis de PDF vienen del antivirus tradicional, no de AMSI directamente.
-
-🧠 En resumen
-
-✔️ AMSI es una interfaz/puente entre aplicaciones y motores antimalware para analizar contenido antes de ejecutarlo.
-✔️ Se usa principalmente para scripts y contenido dinámico (PowerShell, macros, etc.).
-❌ No es un “motor que intercepta todo lo que se va a ejecutar en Windows” en todos los casos.
-❌ No analiza automáticamente cada programa o archivo (como un PDF) antes de que Windows lo abra.
-
