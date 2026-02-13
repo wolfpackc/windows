@@ -108,3 +108,4 @@ Pero AMSI lo ve.
 <img width="1023" height="444" alt="ESET17ErroronStartup112623 png fe49ecfda75902125b69378942480713" src="https://github.com/user-attachments/assets/e5c5aa63-f7af-46b5-b7cd-93e9faf4fd8b" />
 
 
+# enlace de interes.https://trainsec.net/library/windows-internals/how-to-scan-files-with-the-anti-malware-scan-interface-in-windows/
